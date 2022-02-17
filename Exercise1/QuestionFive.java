@@ -82,8 +82,8 @@ public class QuestionFive {
         System.out.println();
 
         //toString method
-        System.out.println(e1.toString());
-        System.out.println(e2.toString());
+        System.out.println(e1);
+        System.out.println(e2);
 
 
 
