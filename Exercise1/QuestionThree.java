@@ -1,3 +1,15 @@
+/*Q3) Write a java program to show following menu to the user:
+
+*******Menu*******
+1. Calculate Area of Circle
+2. Calculate Circumference of a Circle
+3. Exit.
+Choose an option (1-3): 
+
+Take radius as user input.
+
+Hint: Use Switch statement to act on the menu. Also area and circumference methods should be static*/
+
 package Exercise1;
 
 import java.util.Scanner;
