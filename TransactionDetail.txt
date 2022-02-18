@@ -1,6 +1,0 @@
-The account number is:ICICI21
-The amount in the account :200
-The amount withdrawl is :100
-The available amount in the account is :100
-Transaction successful
-Transaction time2022-02-18T23:21:42.775  and date:Value(YearOfEra,4,19,EXCEEDS_PAD)'/'Value(MonthOfYear,2)'/'Value(DayOfMonth,2)' 'Value(HourOfDay,2)':'Value(MinuteOfHour,2)':'Value(SecondOfMinute,2)
