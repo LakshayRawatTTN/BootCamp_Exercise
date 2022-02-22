@@ -48,9 +48,9 @@ public class Q4 {
         Employee emp6 = new Employee("Jayesh Rawat", 4000L, "UK");
         List<Employee> li = Arrays.asList(emp1, emp2, emp3, emp4, emp5, emp6);
         System.out.println(li.stream()
-                .filter(salary->salary.getSalary()<5000)
-                .filter(city->city.getCity().equals("Delhi"))
-                .map(name->name.getFullName().split(" ")[0]).distinct()
+                .filter(e->e.getSalary()<5000)
+                .filter(e->e.getCity().equals("Delhi"))
+                .map(e->e.getFullName().split(" ")[0]).distinct()
                 .collect(Collectors.toList()));
     }
 }
