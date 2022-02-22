@@ -65,8 +65,7 @@ public class Q4 {
     public static void main(String[] as)
     {
 
-        System.out.println(" * Here Key And Object of Value .     *");
-
+       
 
         Map<Employees,Integer> hashMap=new HashMap<Employees,Integer>();
 
