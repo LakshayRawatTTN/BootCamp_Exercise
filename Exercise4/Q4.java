@@ -50,7 +50,7 @@ public class Q4 {
         System.out.println(li.stream()
                 .filter(salary->salary.getSalary()<5000)
                 .filter(city->city.getCity().equals("Delhi"))
-                .map(name->name.getFullName().split(" ")[0])
+                .map(name->name.getFullName().split(" ")[0]).distinct()
                 .collect(Collectors.toList()));
     }
 }
