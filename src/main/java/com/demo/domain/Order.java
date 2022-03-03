@@ -18,6 +18,7 @@ public class Order {
     }
 
     public int getQuantity() {
+
         return quantity;
     }
 
@@ -54,10 +55,12 @@ public class Order {
     }
 
     public boolean isCustomerNotified() {
+
         return isCustomerNotified;
     }
 
     public void setCustomerNotified(boolean customerNotified) {
+
         isCustomerNotified = customerNotified;
     }
 }
