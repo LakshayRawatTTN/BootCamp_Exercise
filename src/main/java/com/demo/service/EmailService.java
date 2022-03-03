@@ -19,7 +19,7 @@ public class EmailService {
 
     void sendEmail(Order order) {
         order.setCustomerNotified(false);
-        throw new RuntimeException("An Exception Occurred");
+        throw new RuntimeException();
     }
 
     boolean sendEmail(Order order, String cc) {
