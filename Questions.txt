@@ -1,0 +1,16 @@
+    Create a class Address for Author with instance variables streetNumber, location, State.
+    Create instance variable of Address class inside Author class and save it as embedded object.
+    Introduce a List of subjects for author.
+    Persist 3 subjects for each author.
+    Create an Entity book with an instance variable bookName.
+    Implement One to One mapping between Author and Book.
+    Implement One to Many Mapping between Author and Book(Unidirectional, BiDirectional and without additional table ) and implement cascade save.
+    Implement Many to Many Mapping between Author and Book.
+    
+    //Theory Questions
+    Which method on the session object can be used to remove an object from the cache?
+    >> clear() method is used.
+    
+    What does @transactional annotation do?
+    
+    >>The @Transactional annotation is the metadata that specifies the semantics of the transactions on a method and also used for rollback.
